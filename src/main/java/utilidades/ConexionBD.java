@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexionBD {
-    private static String url = "jdbc:mysql://localhost:3306/jardineria";
+    private static String url = "jdbc:mysql://localhost:3306/morfeo";
     private static String user = "root";
     private static String clave = "";
     private static Connection conn;
