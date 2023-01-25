@@ -2,7 +2,7 @@ package modelos;
 
 import java.util.Date;
 
-public class Usuarios {
+public class Usuario {
     private Long id;
     private String usuario;
     private String clave;
@@ -13,10 +13,10 @@ public class Usuarios {
     private Date nacimiento;
     private String avatar;
 
-    public Usuarios() {
+    public Usuario() {
     }
 
-    public Usuarios(String usuario, String clave, String nombre, String apellidos, String emilio) {
+    public Usuario(String usuario, String clave, String nombre, String apellidos, String emilio) {
         this.usuario = usuario;
         this.clave = clave;
         this.nombre = nombre;
